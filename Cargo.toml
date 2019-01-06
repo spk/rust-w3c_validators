@@ -1,0 +1,20 @@
+[package]
+name = "w3c_validators"
+version = "0.1.0"
+authors = ["Laurent Arnoud <laurent@spkdev.net>"]
+description = "Rust wrapper for the World Wide Web Consortium's online validation services"
+repository = "https://github.com/spk/rust-w3c_validators.git"
+homepage = "https://github.com/spk/rust-w3c_validators"
+keywords = ["http", "web", "validator", "w3c"]
+license = "MIT"
+readme = "README.md"
+exclude = ["rustfmt.toml"]
+
+[badges]
+travis-ci = { repository = "spk/rust-w3c_validators" }
+
+[dependencies]
+reqwest = "0.9"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
